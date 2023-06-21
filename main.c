@@ -17,7 +17,7 @@ int main(int argc, char *argv[]) {
 	insertFront(&myList, &myHeap, newStudent(105, "Sebastian", "BS CS", 'm'));
 	insertFront(&myList, &myHeap, newStudent(110, "James", "BS CS", 'm'));
 	insertFront(&myList, &myHeap, newStudent(115, "Janine", "BS IS", 'f'));
-//	displayList(myList, myHeap);
+	displayList(myList, myHeap);
 	
 	s = removeStudent(&myHeap, &myList, "James");
 //	s = removeStudent(&myHeap, &myList, "Jonathan");
